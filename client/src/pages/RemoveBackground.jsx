@@ -35,7 +35,7 @@ const RemoveBackground = () => {
     setLoading(false)
   }
   return (
-    <div className='h-full overflow-y-scroll p-6 flex items-start flex-wrap gap-4 text-slate-700'>
+    <div className='h-full overflow-y-scroll p-8 flex items-start flex-wrap gap-8 text-slate-700'>
       {/* Left col */}
       <form onSubmit={onSubmitHandler} className='w-full max-w-lg p-4 bg-white rounded-lg border border-gray-200'>
         <div className='flex items-center gap-3'>
