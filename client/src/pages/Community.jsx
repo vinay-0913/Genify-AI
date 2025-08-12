@@ -53,7 +53,7 @@ const Community = () => {
   }, [user])
   return !loading ? (
     <div className='flex-1 h-full flex flex-col gap-4 p-6'>
-     Creations 
+      <h1 className='text-lg text-gray-800'> Creations  </h1> 
      <div className='bg-white h-full rounded-xl overflow-y-scroll'>
         {
           creations.map((creation, index)=>(
