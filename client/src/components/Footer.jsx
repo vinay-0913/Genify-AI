@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
             <div className="border-t border-slate-200">
                 <div className="max-w-7xl mx-auto px-6 py-5 text-center text-md font-normal">
-                    Quick AI ©2025. All rights reserved.
+                    Genify AI ©2025. All rights reserved.
                 </div>
             </div>
         </footer>
